@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Abd Al-Rahman Al-Zou'bi"
+        ]
+    },
+    "bingsearch": "Bing Search",
+    "savedresults": "Saved Results ",
+    "insert-comment": "Insert comment",
+    "edit-comment": "Edit comment",
+    "update-item": "Update",
+    "delete-item": "Delete",
+    "export-csv": "Export CSV",
+    "search": "Search",
+    "save": "Save",
+    "enter-your-query": "Enter your query ",
+    "something-went-wrong": "Opps! Something went wrong",
+    "error-occured": "Opps! An error has been occured, please try again later or contact administrator",
+    "no-results": "No Results",
+    "specialpages-group-bing_group": "Bing Search Extension",
+    "add": "Add new items"
+}

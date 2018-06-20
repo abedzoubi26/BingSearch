@@ -1,0 +1,72 @@
+{
+    "name": "BingSearch",
+    "version": "1.0.0",
+    "author": [
+        "Abd Al-Rahman"
+    ],
+    "descriptionmsg": "A simple bing search Extension for mediawiki",
+    "license-name": "MIT",
+    "type": "other",
+    "AutoloadClasses": {
+        "BingSearchHooks": "hooks/BingSearch.hooks.php",
+        "SpecialBingSearch": "specials/SpecialBingSearch.php",
+        "SpecialSavedResults": "specials/SpecialSavedResults.php",
+        "BingSearchDeleteApi": "includes/BingSearchDeleteApi.php",
+        "BingSearchUpdateApi": "includes/BingSearchUpdateApi.php"
+    },
+    "SpecialPages": {
+        "BingSearch": "SpecialBingSearch",
+        "SavedResults": "SpecialSavedResults"
+    },
+    "MessagesDirs": {
+        "BingSearch": [
+            "i18n"
+        ]
+    },
+    "ExtensionMessagesFiles":
+            {
+                "BingSearchAlias": "i18n/BingSearch.i18n.alias.php"
+            },
+    "Hooks": {
+        "LoadExtensionSchemaUpdates": "BingSearchHooks::onLoadExtensionSchemaUpdates",
+        "BeforePageDisplay": "BingSearchHooks::onBeforePageDisplay",
+        "OnSaveResults": "BingSearchHooks::onSaveResults",
+        "onLoadSearchResults": "BingSearchHooks::getSavedResults",
+        "onExportCSV": "BingSearchHooks::exportCSV"
+    },
+    "ResourceFileModulePaths": {
+        "localBasePath": "modules",
+        "remoteExtPath": "BingSearch/modules"
+    },
+    "ResourceModules": {
+        "ext.bingSearch": {
+            "group": "ext.bingSearch",
+            "styles": [
+                "ext.bingsearch.style.css"
+            ],
+            "scripts": [
+                "ext.bingsearch.scripts.js"
+            ]
+
+        }
+    },
+    "APIModules": {
+        "delete_link": "BingSearchDeleteApi",
+        "update_link": "BingSearchUpdateApi"
+    },
+    "GroupPermissions": {
+        "*": {
+            "read": true,
+            "execute": false
+        },
+        "user": {
+            "read": true,
+            "execute": true
+        }
+    },
+    "AvailableRights": [
+        "read",
+        "execute"
+    ],
+    "manifest_version": 1
+}

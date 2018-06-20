@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Abd Al-Rahman Al-Zou'bi"
+        ]
+    },
+    "bingsearch": "البحث في محرك Bing",
+    "SavedResults": "النتائج المحفوظة",
+    "insert-comment": "ادخل تعليق",
+    "edit-comment": "تعديل التعليق",
+    "update-item": "تحديث",
+    "delete-item": "حذف",
+    "export-csv": "تنزيل CSV",
+    "search": "بحث",
+    "save": "حفظ",
+    "enter-your-query": "ادخل كلمة البحث",
+    "error-occured": "المعذرة! حدث خطأ فني يرجى المحاولة مرة أخرى أو الاتصال بمسؤول الموقع",
+    "no-results": "لا يوجد نتائج",
+    "specialpages-group-bing_group": "البحث في محرك Bing",
+    "add": "أضف بيانات جديدة"
+}
